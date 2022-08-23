@@ -2,7 +2,8 @@ const http = require('http')
 const fs = require('fs')
 const path = require('path')
 
-http.createServer((req,res) => {
+
+http.createServer((req, res) => {
 
     const file = req.url === '/' ? 'index.html' : req.url
     const filePath = path.join(__dirname, 'public', file)
@@ -15,8 +16,8 @@ http.createServer((req,res) => {
 
     fs.readFile(
         filePath,
-        (err, content) => { 
-            if(err) throw err;
+        (err, content) => {
+            if(err) throw err
 
             res.end(content)
         }

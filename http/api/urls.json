@@ -1,7 +1,7 @@
 {
   "urls": [
     {
-      "name": "Rocketseat",
+      "name": "Rockeseat",
       "url": "http://rocketseat.com.br"
     },
     {
@@ -10,7 +10,7 @@
     },
     {
       "name": "Discord",
-      "url": "http://discord.com.br"
+      "url": "http://discord.com"
     }
   ]
 }
